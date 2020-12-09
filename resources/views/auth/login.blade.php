@@ -39,7 +39,7 @@
                     </a>
                 @endif
 
-                <x-jet-button class="ml-4">
+                <x-jet-button class="ml-4" href="{{ route('products.index') }}">
                     {{ __('Login') }}
                 </x-jet-button>
             </div>
