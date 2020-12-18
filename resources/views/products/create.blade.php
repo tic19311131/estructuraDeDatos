@@ -7,7 +7,7 @@
                 <h2>Agregar Nuevo Producto</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('products.index') }}"> ATRAS</a>
+                <a class="btn btn-primary" name="back" href="{{ route('products.index') }}"> ATRAS</a>
             </div>
         </div>
     </div>

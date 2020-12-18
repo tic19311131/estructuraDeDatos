@@ -39,7 +39,7 @@
             <td>
                 <form action="{{ route('products.destroy',$product->idProducto) }}" method="POST">
    
-                    <a class="btn btn-info" href="{{ route('products.show',$product->idProducto) }}">Mostrar</a>
+                    <a class="btn btn-info" name="show" href="{{ route('products.show',$product->idProducto) }}">Mostrar</a>
     
                     <a class="btn btn-primary" name="edit" href="{{ route('products.edit',$product->idProducto) }}">Editar</a>
    

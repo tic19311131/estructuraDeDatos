@@ -7,7 +7,7 @@
                 <h2>Editar Producto</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" name="btnUpdate" href="{{ route('products.index') }}"> Atras</a>
+                <a class="btn btn-primary" name="back" href="{{ route('products.index') }}"> Atras</a>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-              <button type="submit" class="btn btn-primary">Editar</button>
+              <button type="submit"  name="edit"class="btn btn-primary">Editar</button>
             </div>
         </div>
    
